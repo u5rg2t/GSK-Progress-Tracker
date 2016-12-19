@@ -1,0 +1,79 @@
+<link rel="stylesheet" type="text/css" href="https://connect.gsk.com/sites/Cx/Documents/DigitalComms/Measurement%20Framework/frameworks/modal/remodal.css"/>
+<link rel="stylesheet" type="text/css" href="https://connect.gsk.com/sites/Cx/Documents/DigitalComms/Measurement%20Framework/frameworks/modal/remodal-default-theme.css"/>
+<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/base/jquery-ui.css">
+
+<link rel="stylesheet" type="text/css" href="https://connect.gsk.com/sites/Cx/Documents/DigitalComms/Newsweaver%20tracker/styles/styles.css"/>
+
+<script type="text/javascript" src="https://connect.gsk.com/sites/Cx/Documents/DigitalComms/Measurement%20Framework/frameworks/modal/remodal.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.2.1/Chart.bundle.js"></script>
+<script type="text/javascript" src="https://connect.gsk.com/sites/Cx/Documents/DigitalComms/Measurement%20Framework/frameworks/datejs/moment.js"></script>
+
+<script type="text/javascript" src="https://connect.gsk.com/sites/Cx/Documents/DigitalComms/Newsweaver%20tracker/js/js.js"></script>       
+
+<div class="wrapper">
+	<div class="toparea">
+	
+		<div class="filters" style="margin:20px;">
+			
+			<input id="All" name="radio" type="radio" checked />
+			<label for="All">All</label>
+			<input id="CH" name="radio" type="radio" />
+			<label for="CH">Consumer Healthcare</label>
+			
+			<input id="GMS" name="radio" type="radio" />
+			<label for="GMS">GMS</label>			
+
+			<input id="GSF" name="radio" type="radio" />
+			<label for="GSF">GSF</label>
+
+			<input id="Pharma" name="radio" type="radio" />
+			<label for="Pharma">Pharma</label>
+
+			<input id="RD" name="radio" type="radio" />
+			<label for="RD">R&D</label>
+
+			<input id="Vaccines" name="radio" type="radio" />
+			<label for="Vaccines">Vaccines</label>			
+
+		</div>	
+	
+		<div class="left">
+			<h2>10 biggest countries</h2>
+			<ul class="leftlist"></ul>
+		</div>
+		<div class="middle">
+			<div class="overallstatus"><span class="thenumber"></span><span class="sign">%</span><span class="subtext">cleared</span></div>
+			<div class="chartwrapper"><canvas id="myChart" width="295" height="295"></canvas></div>
+		</div>
+		<div class="right">
+			<h2>Next 10 to clear</h2>
+			<ul class="rightlist"></ul>		
+		</div>
+		<div style="clear:both;"></div>
+	</div>
+	
+	<h2 style="clear:both;">Country by country status</h2>
+	
+	<div class="selector">
+		<div class="peopleicon"><img src="https://connect.gsk.com/sites/Cx/Documents/DigitalComms/Newsweaver%20tracker/img/people.png" /></div>
+		<select class="filterdropdown">
+			<option>All</option>
+			<option>Green</option>
+			<option>Red</option>
+		</select>
+		<input placeholder="Search" id="box" type="text" />		
+		<select class="sort">
+			<option>Name (A to Z)</option>
+			<option>Name (Z to A)</option>
+			<option>Status (Green to Red)</option>
+			<option>Status (Red to Green)</option>
+			<option>Employee count (High to low)</option>
+			<option>Employee count (Low to high)</option>
+			<option>Target date (Sooner to later)</option>
+			<option>Target date (Later to sooner)</option>
+		</select>
+	</div>
+	<div class="tableview">
+		<ul></ul>
+	</div>
+</div>

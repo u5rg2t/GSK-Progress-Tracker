@@ -1,0 +1,42 @@
+.wrapper .toparea{}
+.wrapper .toparea > div{width: 324px; margin:0 20px 0 0!important;float:left;    padding-bottom: 15px;}
+.wrapper .toparea .left{}
+.wrapper .toparea ul{list-style:none;margin:0; padding:0;}
+.wrapper .toparea ul li{margin: 0;padding: 6px 10px;border-radius: 5px;border-bottom: 1px solid #f0efed;}
+.wrapper .toparea ul li:last-child{border:none;}
+.wrapper .toparea ul li span.statusindicator{display: block;    border-radius: 5px;float: left;margin-right: 10px;margin-top: -2px;padding: 0 7px;width: 20px;}
+.wrapper .toparea ul li span.employeecount{float:right;}
+.wrapper .toparea ul li span.date{float:right;}
+#box{padding: 11px;margin-left: 9px;width: 220px;border-radius:5px;}
+
+.wrapper .toparea .middle{position:relative;}
+.wrapper .toparea .middle .chartwrapper{width:250px;height:250px;text-align:center; margin: 54px auto 0 auto!important;}
+.wrapper .toparea .right{margin-right:0!important;}
+
+.wrapper .tableview ul{list-style:none;margin:0; padding:0;}
+.wrapper .tableview ul li{margin:0; padding:14px 20px 31px 20px;border-bottom: #f0efed solid 1px;}
+.wrapper .tableview ul li:nth-child(even){}
+.wrapper .tableview ul li:nth-child(odd){}
+.wrapper .tableview ul li span.statusindicator{display: block;border-radius: 5px;float: left;margin-right: 10px;margin-top: -2px;padding: 0 7px;}
+.wrapper .tableview ul li span.thenumber{display: block;float: left;margin-right: 16px;}
+.wrapper .tableview ul li span.employeecount{width: 100px;text-align: left;width: 100px;text-align: left;position: absolute;left: 510px;}
+.wrapper .tableview ul li span.date{float:right;}
+
+.selector{background-color:#f0efed;height:30px;height: 38px;padding: 10px;border-radius:5px;clear:both;position:relative;}
+.selector .peopleicon{position:absolute;     top: 15px;left: 506px;}
+.selector .sort{float:right; padding: 10px;border-radius:5px;}
+.selector .filterdropdown{float:left; padding: 10px;width: 120px;border-radius:5px;}
+
+#iop-holder .freezone li span.light{color:#c7c1be!important;}
+#iop-holder .freezone li span.statusindicator{color:#fff!important;text-align:center;padding-top: 1px;}
+
+.wrapper h2{font-family:arial!important; font-size:18px; color:#72635d;text-align:center;}
+
+.overallstatus{position: absolute;text-align: center;width: 100%;top: 88px;font-size: 123px;color: #d5d1ce;display:none;}
+.overallstatus .thenumber	{letter-spacing: -5px;}
+.overallstatus .sign{font-size: 30px;}
+.overallstatus .subtext{display:block;font-size: 23px;padding: 0;margin: -40px!important;}
+
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default, .ui-button, html .ui-button.ui-state-disabled:hover, html .ui-button.ui-state-disabled:active{border: 1px solid #d5d1ce;background: #f0efed;	color:#72635d;}
+.ui-state-active, .ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active, a.ui-button:active, .ui-button:active, .ui-button.ui-state-active:hover{border: 1px solid #d5d1ce;background: #d5d1ce;color:#72635d;}
+.wrapper .toparea > div.filters{width: 100%;text-align: center;}
